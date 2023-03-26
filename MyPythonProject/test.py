@@ -1,4 +1,0 @@
-aaa = []
-
-
-print(aaa)
