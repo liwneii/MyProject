@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/vue-3.0.5.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+        <p>{{num}}</p>
+        <p>{{is_delete}}</p>
+    </div>
+    <script>
+        var vm = Vue.createApp({
+            data(){
+                return {
+                    message: "测试数据",
+                    num: 100,
+                    is_delete: false,
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
